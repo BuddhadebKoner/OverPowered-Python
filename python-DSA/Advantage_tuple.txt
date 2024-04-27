@@ -1,0 +1,15 @@
+1. Tuples are used to store values of different data types. Lists can however, store data of similar data types. 
+
+2. Since tuples are immutable, iterating through tuples is faster than iterating over a list. This means that a tuple performs better than a list.
+
+3. Tuples can be used as key for a dictionary but lists cannot be used as keys. We will learn about dictionaries in the next section.
+
+4. Tuples are best suited for storing data that is write-protected (you can read the data but cannot write to it).
+
+5. Tuples can be used in place of lists where the number of values is known and small. tuple as an argument to a function, then the potential for unexpected behavior due to
+
+6. If you are passing a aliasing gets reduced.
+
+7. Multiple values from a function can be returned using a tuple.
+
+8. Tuples are used to format strings.
