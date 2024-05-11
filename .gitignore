@@ -106,3 +106,4 @@ env/
 
 # Except specific directory inside .venv
 !.venv/data/
+.idea/
