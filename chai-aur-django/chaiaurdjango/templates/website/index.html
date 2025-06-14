@@ -1,0 +1,149 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buddhadeb Koner - Portfolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Buddhadeb Koner</h1>
+            <p class="intro">I am Buddhadeb Koner, a FullStack Web Developer with a passion for creating and sharing great software. I specialize in the MERN stack and Next.js, and I am always eager to learn new technologies and frameworks. I am a dedicated problem solver who enjoys contributing to open-source projects and building innovative web applications.</p>
+            
+            <div class="header-buttons">
+                <button class="btn btn-primary">Download Resume</button>
+                <button class="btn btn-secondary">
+                    <span class="icon">💬</span>
+                    Chat with me
+                </button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Skills and Connect Section -->
+            <div class="skills-connect-wrapper">
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <div class="skills-list">
+                        <span class="skill-tag">Appwrite</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Next Js</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </section>
+
+                <section class="connect">
+                    <h2>Let's connect</h2>
+                    <div class="social-links">
+                        <a href="#" class="social-icon github">📁</a>
+                        <a href="#" class="social-icon linkedin">💼</a>
+                        <a href="#" class="social-icon twitter">🐦</a>
+                        <a href="#" class="social-icon globe">🌐</a>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <strong>Email</strong>
+                            <p>iambuddhadebkoner@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Address</strong>
+                            <p>Bardhaman, India</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Blogs Section -->
+            <section class="blogs">
+                <div class="section-header">
+                    <h2>Blogs</h2>
+                    <div class="navigation">
+                        <button class="nav-btn">‹</button>
+                        <button class="nav-btn">›</button>
+                    </div>
+                </div>
+                
+                <div class="blog-cards">
+                    <div class="blog-card">
+                        <h3>I don't need a stamp of MERN stack on my forehead</h3>
+                        <p>I don't need a stamp of MERN stack on my forehead</p>
+                        <div class="blog-meta">
+                            <span class="author">Admin</span>
+                            <div class="stats">
+                                <span>👁 48</span>
+                                <span>❤ 4</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="blog-card">
+                        <h3>C++ Compilation and Execution</h3>
+                        <p>How to run c and c++ file in a proper way</p>
+                        <div class="blog-meta">
+                            <span class="author">Admin</span>
+                            <div class="stats">
+                                <span>👁 119</span>
+                                <span>❤ 17</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Work Experience Section -->
+            <section class="work-experience">
+                <h2>Work Experience</h2>
+                <div class="experience-item">
+                    <div class="company-info">
+                        <div class="company-logo">Z</div>
+                        <div class="company-details">
+                            <h3>Zidio</h3>
+                            <p class="position">Intern</p>
+                            <div class="tags">
+                                <span class="tag">mern</span>
+                                <span class="tag">communication</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-duration">
+                        <span class="duration">Apr 2025 - Present</span>
+                        <span class="status">Current</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card blog-app">
+                        <div class="project-content">
+                            <h3>Blog App</h3>
+                            <p>Discover an engaging blog platform built with the MERN stack. Featuring a custom admin panel that enables administrators to create, update, and delete posts, this project seamlessly integrates with a MongoDB database for dynamic content delivery.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card url-shortener">
+                        <div class="project-content">
+                            <h3>Url Shortner</h3>
+                            <p>In 24 hr I made it using Next.js — the URL shortener, and you can check the click and analytics of the URL. Check it out — you can modify and showcase it in your resume. Also, it's free for all.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card social-media">
+                        <div class="project-content">
+                            <h3>Social Media Website</h3>
+                            <p>Kochu-Media is a modern social media platform designed to enhance online interaction through a feature-rich environment where users can post photos with captions, save posts, and engage with dynamic content</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
