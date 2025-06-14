@@ -1,6 +1,5 @@
 print("example 1")
 
-
 class Manager:
     @staticmethod
     def final_review():
